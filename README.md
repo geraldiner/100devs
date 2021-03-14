@@ -13,8 +13,8 @@ I am also really passionate about UX and Graphic Design, so the look and feel of
  
 # Lessons Learned:
  
-*"#" are also called "octothorps"
-*'==' operator tests only value, while '===' operator tests value AND type
-*how to create & use a code snippet in VS Code
+* "#" are also called "octothorps"
+* '==' operator tests only value, while '===' operator tests value AND type
+* how to create & use a code snippet in VS Code
  
 # Examples:
