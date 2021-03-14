@@ -47,4 +47,4 @@ function list(names){
 # Refactoring Ideas
 My first thought is that I handled the last part poorly. I thought there might be a better way to do it, but couldn't think of anything without having to look it up.
 
-After submitting my solution, I learned that there's a reduce 
+After submitting my solution, I learned that there's a reduce function. Next time I'll have to look it up on the MDN and see how it works and think about how it can be applied.
