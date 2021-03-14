@@ -1,5 +1,5 @@
-# My Awesome Project
-This is where I'll be keeping all my work for (Leon Noel's)[https://leonnoel.com] (Free Full-Stack WebDev Bootcamp, #100Devs)[https://twitch.tv/learnwithleon].
+# #`00Devs
+This is where I'll be keeping all my work for (Leon Noel's) [https://leonnoel.com] (Free Full-Stack WebDev Bootcamp, #100Devs) [https://twitch.tv/learnwithleon].
  
 # How It's Made:
 *Tech used:* HTML, CSS, JavaScript, ReactJS
