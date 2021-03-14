@@ -7,7 +7,7 @@ This is where I'll be keeping all my work for [Leon Noel's](https://leonnoel.com
 I'm building on my HTML, CSS, JavaSCript skills that I've learned in college and along the way in my current job.
  
 # Optimizations
-A lot of this code is "vomitted" to make sure it works, and then refactored to work better. A lot of it I pick up while practicing on [CodeWars](https://github.com/geraldiner/100devs/tree/main/codewars).
+A lot of this code is "vomitted" to make sure it works, and then refactored to work better. A lot of it I pick up while practicing on [CodeWars](https://www.codewars.com/users/geraldinerrr/completed_solutions).
 
 I am also really passionate about UX and Graphic Design, so the look and feel of each project is also considered.
  
