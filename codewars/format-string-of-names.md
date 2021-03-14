@@ -1,4 +1,5 @@
 # Challenge
+
 (On the CodeWars website)[https://www.codewars.com/kata/53368a47e38700bd8300030d]
 Given: an array containing hashes of names
 
@@ -6,7 +7,7 @@ Return: a string formatted as a list of names separated by commas except for the
 
 Example:
 
-```
+```javascript
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
 // returns 'Bart, Lisa & Maggie'
 
@@ -23,7 +24,7 @@ Note: all the hashes are pre-validated and will only contain A-Z, a-z, '-' and '
 
 # My Solution
 
-```
+```javascript
 function list(names){
   let str = "";
   if (names) {
@@ -42,3 +43,8 @@ function list(names){
   return str
 }
 ```
+
+# Refactoring Ideas
+My first thought is that I handled the last part poorly. I thought there might be a better way to do it, but couldn't think of anything without having to look it up.
+
+After submitting my solution, I learned that there's a reduce 
