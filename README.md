@@ -16,5 +16,6 @@ I am also really passionate about UX and Graphic Design, so the look and feel of
 * "#" are also called "octothorps"
 * '==' operator tests only value, while '===' operator tests value AND type
 * how to create & use a code snippet in VS Code
+* VS Code has a terminal that I can use to be pushing to Git 
  
 # Examples:
