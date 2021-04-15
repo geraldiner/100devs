@@ -37,4 +37,4 @@ async function getDogPhoto() {
   }
 }
 
-window.addEventListener('load', setDogPhoto)
+window.addEventListener('load', getDogPhoto)

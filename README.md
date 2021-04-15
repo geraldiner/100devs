@@ -17,5 +17,7 @@ I am also really passionate about UX and Graphic Design, so the look and feel of
 * '==' operator tests only value, while '===' operator tests value AND type
 * how to create & use a code snippet in VS Code
 * VS Code has a terminal that I can use to be pushing to Git 
+* Everything is an object and Object Oriented Programming makes a lot more sense now
+* JavaScript does not work natively in the browser. It utilizes web APIs to do stuff like "document.querySelector". Something like Node.js lets us use JavaScript in the browser. #mindblown
  
 # Examples:
