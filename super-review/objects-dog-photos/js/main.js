@@ -13,8 +13,27 @@ async function fetchDogInfo() {
     let dogStream = await fetch(url);
     let dogJson = await dogStream.json();
     return dogJson;
-  } catch (err) {
+  } catch (error) {
     return { Error: error.stack }
+  }
+}
+
+async function getDogPhoto() {
+  const url = 'https://dog.ceo/api/breeds/image/random';
+  let src = '';
+  let dogData = await fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      return data;
+    })
+    .catch(error => {
+      return { Error: error.stack }
+    })
+  if (dogData.status === 'success') {
+    const img = document.querySelector('img');
+    img.src = dogData.message;
+  } else {
+    console.log(dogData)
   }
 }
 
