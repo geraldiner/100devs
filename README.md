@@ -19,5 +19,6 @@ I am also really passionate about UX and Graphic Design, so the look and feel of
 * VS Code has a terminal that I can use to be pushing to Git 
 * Everything is an object and Object Oriented Programming makes a lot more sense now
 * JavaScript does not work natively in the browser. It utilizes web APIs to do stuff like "document.querySelector". Something like Node.js lets us use JavaScript in the browser. #mindblown
+* As a personal preference, it seems better to just stick to semi-colons because every other language uses it - saves hours of frustration trying to look for that missing one.
  
 # Examples:
