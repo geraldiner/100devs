@@ -26,5 +26,3 @@ class streetFighter {
 }
 
 let chunli = new streetFighter('Chun-Li', 'I didn\'t become the strongest woman in the world just by saying it out loud!', 12, 'Hoyokusen')
-
-chunli.displayStats()
