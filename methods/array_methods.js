@@ -72,13 +72,16 @@ const foodArray = [
   { name: 'Pasta', price: 5.99 }
 ]
 
-foodArray.forEach((food, i) => {
-  console.log(`${i} | ${food.name} costs $${food.price}.`)
-})
+// foodArray.forEach((food, i) => {
+//   console.log(`${i} | ${food.name} costs $${food.price}.`)
+// })
 
 // sort
-// The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
-
+// MDN: The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+// Sorts an array in place based on the compareFunction provided and returns the sorted array. The default compareFunction puts items in descending order based on their string values
+let numbers = [1, 30, 4, 21, 100000];
+console.log(`Sort by default: ${numbers.sort()}`)
+console.log(`Sort by value: ${numbers.sort((a, b) => a - b)}`)
 
 // slice
 // pop
