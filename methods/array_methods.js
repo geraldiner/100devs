@@ -35,7 +35,7 @@ let arr5 = [11, 209, 23, 41]
 let product = arr5.reduce((acc, cur) => { return acc * cur })
 // console.log(product)
 let max = arr5.reduce((acc, cur) => { return Math.max(acc, cur) })
-console.log(max)
+// console.log(max)
 
 // filter
 // MDN:
@@ -44,11 +44,42 @@ console.log(max)
 // @params: callback function with parameters:
 //            element: current element being processed
 // @return: new array with elements that passed the filter
+// This is the finding the sheep one
+let sheeps = [true, true, true, false,
+  true, true, true, true,
+  true, false, true, false,
+  true, false, false, true,
+  true, true, true, true,
+  false, false, true, true]
+
+let sheepsFound = sheeps.filter((sheep) => sheep)
+// also works as sheeps.filter(Boolean)
+// console.log(sheepsFound.length)
 
 // forEach
+// MDN:
+// The forEach() method executes a provided function once for each array element.
+// As it's name implies - it will apple the given function FOR EACH element in the array - kinda 
+// Does not return
+// @params: callback: function to perform on each element
+//            element: current element being processed
 
+// print each food and its price
+const foodArray = [
+  { name: 'Burrito', price: 2.99 },
+  { name: 'Pizza', price: 6.99 },
+  { name: 'Burger', price: 4.99 },
+  { name: 'Pasta', price: 5.99 }
+]
+
+foodArray.forEach((food, i) => {
+  console.log(`${i} | ${food.name} costs $${food.price}.`)
+})
 
 // sort
+// The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+
+
 // slice
 // pop
 // shift
