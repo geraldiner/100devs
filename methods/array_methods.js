@@ -84,6 +84,10 @@ console.log(`Sort by default: ${numbers.sort()}`)
 console.log(`Sort by value: ${numbers.sort((a, b) => a - b)}`)
 
 // slice
+
+
+
+
 // pop
 // shift
 // push
