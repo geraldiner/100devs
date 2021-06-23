@@ -1,5 +1,6 @@
 // Give a short description of what the method does, how it works, it's time complexity (if appropriate), and give three examples of it in action!
 
+
 // map
 // MDN:
 // The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
@@ -16,6 +17,7 @@ let arr2 = arr1.map((a) => Number(a)) // new array of the numbers as Numbers
 let arr3 = [1, 3, 5, 7, 9] // array of numbers
 let arr4 = arr3.map(a => a ** 2)
 // console.log(arr3, arr4)
+
 
 // reduce
 // MDN:
@@ -37,6 +39,7 @@ let product = arr5.reduce((acc, cur) => { return acc * cur })
 let max = arr5.reduce((acc, cur) => { return Math.max(acc, cur) })
 // console.log(max)
 
+
 // filter
 // MDN:
 // The filter() method creates a new array with all elements that pass the test implemented by the provided function.
@@ -55,6 +58,7 @@ let sheeps = [true, true, true, false,
 let sheepsFound = sheeps.filter((sheep) => sheep)
 // also works as sheeps.filter(Boolean)
 // console.log(sheepsFound.length)
+
 
 // forEach
 // MDN:
@@ -76,6 +80,7 @@ const foodArray = [
 //   console.log(`${i} | ${food.name} costs $${food.price}.`)
 // })
 
+
 // sort
 // MDN: The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 // Sorts an array in place based on the compareFunction provided and returns the sorted array. The default compareFunction puts items in descending order based on their string values
@@ -83,12 +88,26 @@ let numbers = [1, 30, 4, 21, 100000];
 console.log(`Sort by default: ${numbers.sort()}`)
 console.log(`Sort by value: ${numbers.sort((a, b) => a - b)}`)
 
+
 // slice
-
-
+// MDN: The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+// Returns a new array that includes the elements as specified by the given arguments: start (inclusive), end (not inclusive). The original array is not changed.
+let array = [1,2,3,4,5]
+// console.log(array) // [1,2,3,4,5]
+let array2 = array.slice(0,3)
+// console.log(array2) // [1,2,3]
+array[0] = 10
+// console.log(array, array2) // [10,2,3,4,5], [1,2,3]
 
 
 // pop
+// The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+let veggies = ["broccoli", "cauliflower", "cabbage", "kale", "tomato"]
+let popped = veggies.pop()
+console.log(popped) // tomato
+console.log(veggies) // ["broccoli", "cauliflower", "cabbage", "kale"]
+
+
 // shift
 // push
 // unshift
