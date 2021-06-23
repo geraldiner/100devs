@@ -101,7 +101,8 @@ array[0] = 10
 
 
 // pop
-// The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+// MDN: The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+// Retrieve the LAST element in the array, therefore subtracting 1 from the array's length
 let veggies = ["broccoli", "cauliflower", "cabbage", "kale", "tomato"]
 let popped = veggies.pop()
 console.log(popped) // tomato
@@ -109,7 +110,20 @@ console.log(veggies) // ["broccoli", "cauliflower", "cabbage", "kale"]
 
 
 // shift
+// MDN: The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
+// Retrieve the FIRST element in the array, therefore subtracting 1 from the array's length
+let shifted = veggies.shift()
+console.log(shifted) // broccoli
+console.log(veggies) // ["cauliflower", "cabbage", "kale"]
+
+
 // push
+// MDN: The push() method adds one or more elements to the end of an array and returns the new length of the array.
+// Adds elements to the end of an array and returns the new length of the array
+let newLen = veggies.push("green beans", "carrots")
+console.log(veggies, newLen)
+
+
 // unshift
 // includes
 // indexOf
