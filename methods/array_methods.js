@@ -85,8 +85,8 @@ const foodArray = [
 // MDN: The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 // Sorts an array in place based on the compareFunction provided and returns the sorted array. The default compareFunction puts items in descending order based on their string values
 let numbers = [1, 30, 4, 21, 100000];
-console.log(`Sort by default: ${numbers.sort()}`)
-console.log(`Sort by value: ${numbers.sort((a, b) => a - b)}`)
+// console.log(`Sort by default: ${numbers.sort()}`)
+// console.log(`Sort by value: ${numbers.sort((a, b) => a - b)}`)
 
 
 // slice
@@ -105,30 +105,55 @@ array[0] = 10
 // Retrieve the LAST element in the array, therefore subtracting 1 from the array's length
 let veggies = ["broccoli", "cauliflower", "cabbage", "kale", "tomato"]
 let popped = veggies.pop()
-console.log(popped) // tomato
-console.log(veggies) // ["broccoli", "cauliflower", "cabbage", "kale"]
+// console.log(popped) // tomato
+// console.log(veggies) // ["broccoli", "cauliflower", "cabbage", "kale"]
 
 
 // shift
 // MDN: The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
 // Retrieve the FIRST element in the array, therefore subtracting 1 from the array's length
 let shifted = veggies.shift()
-console.log(shifted) // broccoli
-console.log(veggies) // ["cauliflower", "cabbage", "kale"]
+// console.log(shifted) // broccoli
+// console.log(veggies) // ["cauliflower", "cabbage", "kale"]
 
 
 // push
 // MDN: The push() method adds one or more elements to the end of an array and returns the new length of the array.
-// Adds elements to the end of an array and returns the new length of the array
+// Adds elements to the END of an array and returns the new length of the array
 let newLen = veggies.push("green beans", "carrots")
-console.log(veggies, newLen)
+// console.log(veggies, newLen)
 
 
 // unshift
-// includes
-// indexOf
-// every
+// The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+// Adds elements to the START of an array and returns the new length
+let newLen2 = veggies.unshift("radish", "potato")
+// console.log(veggies, newLen2)
 
+
+// includes
+// MDN: The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+// Checks if an element exists in the array, returning a boolean
+let hasSpinach = veggies.includes("spinach")
+// console.log(hasSpinach)
+// console.log(veggies.includes("radish"))
+
+
+// indexOf
+// MDN: The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+// Returns the index of where the given element appears in the array, or -1 if it's not in the array
+// let spinachIndex = veggies.indexOf("spinach") // -1
+// console.log(spinachIndex)
+// let radishIndex = veggies.indexOf("radish") // 0
+// console.log(radishIndex)
+
+// every
+// MDN: The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+// Checks if every element in the array passes the given test. Returns true if it does, false otherwise. (forEach and filter combined?)
+let allLongerThanTen = veggies.every(curr => curr.length > 10)
+console.log(allLongerThanTen)
+let allLongerThanThree = veggies.every(curr => curr.length > 3)
+console.log(allLongerThanThree)
 
 
 // You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers, so a baby of 5 months, will have an ascribed 'age' of 0. Return a new array with [youngest age, oldest age, difference between the youngest and oldest age].
