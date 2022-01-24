@@ -1,0 +1,8 @@
+:root {
+	--blue: #87ceeb;
+	--green: #48cd31;
+}
+
+body {
+	background-color: var(--blue);
+}
