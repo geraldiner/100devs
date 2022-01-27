@@ -3,6 +3,63 @@
 	--green: #48cd31;
 }
 
+html,
 body {
 	background-color: var(--blue);
+	font-size: 16pt;
+}
+
+section {
+	margin: 30px auto;
+	border: 5px solid var(--green);
+	max-width: 50%;
+	padding: 50px;
+}
+
+header,
+footer {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 2.5rem;
+	font-style: italic;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: white;
+}
+
+ul > li {
+	display: inline;
+}
+
+ul > li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: var(--green);
+}
+
+li a.current {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	overflow: auto;
+	color: white;
+}
+
+main h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.85rem;
+}
+
+main img {
+	float: right;
+	width: 250px;
+	height: auto;
+}
+
+main p {
+	font-size: 1rem;
+	line-height: 150%;
 }
