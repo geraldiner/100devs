@@ -51,3 +51,27 @@ li {
 	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
 	background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
 }
+
+@keyframes morph {
+	0% {
+		background-color: red;
+	}
+	14% {
+		background-color: orange;
+	}
+	28% {
+		background-color: yellow;
+	}
+	62% {
+		background-color: green;
+	}
+	72% {
+		background-color: cyan;
+	}
+	86% {
+		background-color: blue;
+	}
+	100% {
+		background-color: violet;
+	}
+}

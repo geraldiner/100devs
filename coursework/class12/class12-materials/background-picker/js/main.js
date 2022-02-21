@@ -4,24 +4,24 @@ document.getElementById("blue").onclick = partyBlue;
 document.getElementById("rainbow").onclick = partyRainbow;
 
 function partyPurple() {
-	document.querySelector("body").style.background = "white";
+	document.querySelector("body").style.animation = "none";
 	document.querySelector("body").style.backgroundColor = "rgba(241,63,247,1)";
 	document.querySelector("body").style.color = "white";
 }
 
 function partyGreen() {
-	document.querySelector("body").style.background = "white";
+	document.querySelector("body").style.animation = "none";
 	document.querySelector("body").style.backgroundColor = "rgba(0,253,81,1)";
 	document.querySelector("body").style.color = "white";
 }
 
 function partyBlue() {
-	document.querySelector("body").style.background = "white";
+	document.querySelector("body").style.animation = "none";
 	document.querySelector("body").style.backgroundColor = "rgba(0,254,255)";
 	document.querySelector("body").style.color = "white";
 }
 
 function partyRainbow() {
-	document.querySelector("body").style.background = "linear-gradient(to right, orange, yellow, green, cyan, blue, violet)";
+	document.querySelector("body").style.animation = "morph 5s infinite";
 	document.querySelector("body").style.color = "white";
 }
