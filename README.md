@@ -3,6 +3,7 @@
 100Devs is a software development agency that builds solutions for companies of all sizes. It includes a comprehensive training program to take people who have never touched code before to fullstack software engineers, and on to working with their own clients. Learn more on LinkedIn: https://www.linkedin.com/company/100devs
 
 
+
 ## Other Projects
 
 Check out other stuff I've worked on:
